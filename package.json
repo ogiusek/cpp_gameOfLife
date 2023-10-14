@@ -1,0 +1,7 @@
+{
+  "name": "game_of_life",
+  "scripts": {
+    "start": "g++ -g src/main.cpp -o dist/program -lSDL2 -lSDL2_ttf -lSDL2_image -O3 -ffast-math && echo 'compiled' && dist/program"
+  },
+  "license": "ISC"
+}
